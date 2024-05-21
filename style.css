@@ -1,3 +1,37 @@
 body {
     background-color: orange;
+    margin: 0 450px;
+    color: white;
+}
+
+#home-title {
+    text-align: center;
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+    margin: 
+}
+
+h2, h3 {
+    text-align: center;
+}
+
+h2 {
+    padding: 30px;
+    margin: 0;
+}
+
+div {
+    background-color: black;
+}
+
+ul, ol {
+    margin: 0 20px;
+}
+
+p {
+    margin: 0 20px;
 }
