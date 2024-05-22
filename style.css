@@ -1,18 +1,31 @@
+html {
+    box-sizing: border-box;
+}
+
+* {
+    box-sizing: inherit;
+}
+
 body {
-    background-color: orange;
-    margin: 0 450px;
-    color: white;
+    background-color: grey;
+    margin: auto;
+    color: black;
+    font-family: sans-serif;
+    width: 40%;
 }
 
 #home-title {
     text-align: center;
     padding: 30px;
+    margin: 0;
 }
 
 img {
-    width: 100%;
+    width: 80%;
     height: auto;
-    margin: 
+    margin: auto;
+    display: block;
+    border: 2px solid black;
 }
 
 h2, h3 {
@@ -25,7 +38,9 @@ h2 {
 }
 
 div {
-    background-color: black;
+    background-color: white;
+    padding-bottom: 20px;
+    margin: 20px 0;
 }
 
 ul, ol {
@@ -34,4 +49,9 @@ ul, ol {
 
 p {
     margin: 0 20px;
+    text-align: center;
 }
+
+/** {
+    outline: 2px solid red;
+}*/
